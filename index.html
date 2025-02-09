@@ -1,75 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Read Dead Redemption 2</h1>
-    </header>
 
-    <section class="content">
-      <article>
-        <img
-          src="Red_Dead_Redemption_2_Logo.png"
-          alt="Titulo de Red Dead Redemption 2"
-        />
-        <p id="descripcion">
-          En 1899 la era de los forajidos y del salvaje oeste en Estados Unidos
-          estaba finalizando, el gobierno inventaba cada vez más leyes sobre una
-          modernización en todo el país.<br />
-          La expansión del ferrocarril y el crecimiento de las ciudades empujaba
-          a los forajidos y pandillas a zonas menos densamente pobladas,
-          poniendo en conflicto las pandillas de forajidos entre sí por el
-          control de ciertas regiones en donde ellos pueden mandar, también
-          incluyendo que estas pandillas tenían conflictos con agencias
-          gubernamentales privadas.<br />
-          Este siendo el principio que marcaria el fin de la era de los
-          forajidos.
-        </p>
-        <h2>Plataformas</h2>
-        <div id="plataformas">
-          <li>PlayStation 4</li>
-          <li>Xbox One</li>
-          <li>PC (Microsoft windows)</li>
-          <li>PlayStation 5</li>
-          <li>Xbox Series X/S</li>
-        </div>
-        <h2>Requisitos en PC</h2>
-        <div id="requisitos_minimos">
-          <h5>Minimos</h5>
-          <li>SO: Windows 10 64-bits.</li>
-          <li>Procesador: Intel® Core™ i5-2500K/AMD FX-6300.</li>
-          <li>Memoria: 8 GB</li>
-          <li>Gráficos: Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB.</li>
-          <li>Disco: 150 GB.</li>
-        </div>
-        <div id="requisitos_recomendados">
-          <h5>Recomendados</h5>
-          <li>SO: Windows 10 64-bit</li>
-          <li>Procesador: Intel® Core™ i7-4770K/AMD Ryzen 5 1500X.</li>
-          <li>Memoria: 12 GB</li>
-          <li>
-            Gráficos: Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB.
-          </li>
-          <li>Disco: 150 GB.</li>
-        </div>
-      </article>
-      <aside>
-        <a
-          href="https://store.rockstargames.com/game/buy-red-dead-redemption-2"
-          target="_blank"
-          >Compra Red Dead Redemption 2</a
-        >
-      </aside>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <footer>
-      <p>&copy; 2025 Miguel Bustamante. All Rights Reserved.</p>
-      <p>Taller - Primeros pasos en HTML - Proyecto inicial</p>
-    </footer>
-  </body>
+<body>
+  <header>
+    <h1>Read Dead Redemption 2</h1>
+    <ul class="lista_sin_puntos">
+      <li class="elemento_lista">
+        <a class="enlace" href="#ediciones">Ediciones</a>
+      </li>
+      <li class="elemento_lista">
+        <a class="enlace texto_negrita" href="https://store.rockstargames.com/game/buy-red-dead-redemption-2" target="_blank">
+          Compra Red Dead Redemption 2
+        </a>
+      </li>
+    </ul>
+  </header>
+
+  <section class="content">
+    <article>
+      <img src="Red_Dead_Redemption_2_Logo.png" alt="Titulo de Red Dead Redemption 2" />
+      <p id="descripcion">
+        En 1899 la era de los forajidos y del salvaje oeste en Estados Unidos
+        estaba finalizando, el gobierno inventaba cada vez más leyes sobre una
+        modernización en todo el país.<br />
+        La expansión del ferrocarril y el crecimiento de las ciudades empujaba
+        a los forajidos y pandillas a zonas menos densamente pobladas,
+        poniendo en conflicto las pandillas de forajidos entre sí por el
+        control de ciertas regiones en donde ellos pueden mandar, también
+        incluyendo que estas pandillas tenían conflictos con agencias
+        gubernamentales privadas.<br />
+        Este siendo el principio que marcaria el fin de la era de los
+        forajidos.
+      </p>
+      <h2>Plataformas</h2>
+      <div id="plataformas">
+        <li>PlayStation 4</li>
+        <li>Xbox One</li>
+        <li>PC (Microsoft windows)</li>
+        <li>PlayStation 5</li>
+        <li>Xbox Series X/S</li>
+      </div>
+      <h2>Requisitos en PC</h2>
+      <div id="requisitos">
+        <table>
+          <tr>
+            <th></th>
+            <th>Mínimos</th>
+            <th>Recomendados</th>
+          </tr>
+          <tr>
+            <td class="componentes">Sistema Operativo</td>
+            <td class="requisitos_texto requisitos_division">
+              Windows 10 64-bits
+            </td>
+            <td class="requisitos_texto">Windows 10 64-bits</td>
+          </tr>
+          <tr>
+            <td class="componentes">Procesador</td>
+            <td class="requisitos_texto requisitos_division">
+              Intel® Core™ i5-2500K/AMD FX-6300
+            </td>
+            <td class="requisitos_texto">
+              Intel® Core™ i7-4770K/AMD Ryzen 5 1500X
+            </td>
+          </tr>
+          <tr>
+            <td class="componentes">Memoria</td>
+            <td class="requisitos_texto requisitos_division">8 GB</td>
+            <td class="requisitos_texto">12 GB</td>
+          </tr>
+          <tr>
+            <td class="componentes">Gráficos</td>
+            <td class="requisitos_texto requisitos_division">
+              Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB
+            </td>
+            <td class="requisitos_texto">
+              Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB
+            </td>
+          </tr>
+          <tr>
+            <td class="componentes">Almacenamiento</td>
+            <td class="requisitos_texto requisitos_division">150 GB</td>
+            <td class="requisitos_texto">150 GB</td>
+          </tr>
+        </table>
+      </div>
+    </article>
+    <aside>
+      <a class="enlace_italico" href="https://es.wikipedia.org/wiki/Red_Dead_Redemption_2" target="_blank">Conoce más
+        sobre el
+        juego</a>
+    </aside>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Miguel Bustamante. All Rights Reserved.</p>
+    <p>Taller - Primeros pasos en HTML - Proyecto inicial</p>
+  </footer>
+</body>
+
 </html>
