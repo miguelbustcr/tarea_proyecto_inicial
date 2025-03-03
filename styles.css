@@ -28,6 +28,10 @@ aside {
   padding: 10px;
   margin-top: 10px;
   border-radius: 5px;
+
+  &:hover {
+    background-color: #ee0000;
+  }
 }
 .titulo_pagina {
   font-size: 400%;
