@@ -29,15 +29,22 @@ aside {
   margin-top: 10px;
   border-radius: 5px;
 }
+.titulo_pagina {
+  font-size: 400%;
+}
 .enlace {
   text-decoration: none;
   color: #ffffff;
 }
 .enlace_italico {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 10px;
-    font-style: italic;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  font-style: italic;
+}
+.enlace_menu {
+  display: block;
+  color: #ffffff;
 }
 #requisitos {
   background-color: #cac6c7;
@@ -47,39 +54,68 @@ aside {
   border-radius: 5px;
 }
 #plataformas {
-    background-color: #d8d7d7;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 12px;
+  background-color: #d8d7d7;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
 }
 h2 {
   color: #7e1921;
 }
 #descripcion {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.requisitos_texto {
-    font-size: 12px;
-}
-.componentes {
-    font-size: 14px;
-    text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 table {
-    margin-left: auto;
-    margin-right: auto;
-    border-spacing: 0;
-}
-.requisitos_division {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0;
+
+  .componentes {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .requisitos_texto {
+    font-size: 12px;
+  }
+
+  .requisitos_division {
     border-right: 1px solid #7e1921;
+  }
 }
 .lista_sin_puntos {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
 }
 .elemento_lista {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+.elemento_lista_horizontal {
+  float: left;
+  margin-right: 10px;
 }
 .texto_negrita {
-    font-weight: bold;
+  font-weight: bold;
+}
+.menu {
+  background-color: #7e1921;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  width: 100%;
+  height: 70px;
+
+  a {
+    border-radius: 5px;
+    background-color: #7e1921;
+    padding: 10px;
+
+    &:hover {
+      background-color: #fdaa0c;
+    }
+  }
+}
+.menu_centrado {
+  display: flex;
+  justify-content: center;
 }
