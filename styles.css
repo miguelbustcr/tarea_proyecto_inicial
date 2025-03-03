@@ -123,3 +123,7 @@ table {
   display: flex;
   justify-content: center;
 }
+div li {
+  font-size: 13px;
+  color: #3b3737;
+}
