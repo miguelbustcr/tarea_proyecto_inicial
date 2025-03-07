@@ -55,9 +55,6 @@ footer {
     }
   }
 }
-.titulo_pagina {
-  font-size: 200%;
-}
 .enlace {
   text-decoration: none;
   color: #ffffff;
@@ -113,6 +110,7 @@ table {
   list-style-type: none;
   padding: 0;
   overflow: hidden;
+  margin-bottom: 0;
 }
 .elemento_lista {
   margin-bottom: 10px;
@@ -129,12 +127,15 @@ table {
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
   width: 100%;
-  height: 70px;
+  height: 100px;
 
   a {
     border-radius: 5px;
     background-color: #7e1921;
     padding: 10px;
+    margin: 10px;
+    border: 1px solid #fdaa0c;
+    transition-duration: .5s;
 
     &:hover {
       background-color: #fdaa0c;
@@ -144,6 +145,7 @@ table {
 .menu_centrado {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 div li {
   font-size: 13px;
